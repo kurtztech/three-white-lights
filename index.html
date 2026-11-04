@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Three White Lights</title>
+<meta name="description" content="A phone-first powerlifting incremental game.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <div id="hud" class="gut">
+    <div><div id="vol">0 kg</div><div id="moved">lifted so far</div></div>
+    <div id="hudR"><div id="rate"></div><button id="more" hidden>Menu</button></div>
+  </div>
+  <div id="lifts" class="gut" hidden></div>
+  <div id="stage" aria-label="Barbell. Tap to lift." role="button"><canvas id="cv"></canvas><div id="hint">Pick it up.</div></div>
+  <div id="bench" class="gut"></div>
+  <div id="panel" hidden><div id="rows" class="gut"></div><div id="nav"></div></div>
+</div>
+<script src="game-1.js"></script>
+<script src="game-2.js"></script>
+</body>
+</html>
